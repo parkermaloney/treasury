@@ -1,0 +1,41 @@
+.header {
+  font-family: 'Nunito';
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  background-color: rgb(0 153 255);
+}
+
+ .header button {
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 1.1rem;
+  background: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  transition: opacity 0.1s;
+ }
+
+ .header button:hover {
+  opacity: 0.8;
+ }
+
+  .header button:active {
+  opacity: 0.5;
+ }
+
+ .header img{
+  width: 60px;
+ }
+
+ .header .logo {
+    display: flex;
+    flex-direction: row;
+ }
