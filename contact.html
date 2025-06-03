@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="Icons/treasure-chest.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles/general.css">
+  <link rel="stylesheet" href="Styles/footer.css">
+  <link rel="stylesheet" href="Styles/header.css">
+  <link rel="stylesheet" href="Styles/contact.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2029 Treasury</title>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="Icons/treasure-chest.png">
+    </div>
+
+    <button onclick="window.location.href='/index.html'">Home</button>
+    <button onclick="window.location.href='/budget.html'">Budget</button>
+    <button onclick="window.location.href='/contact.html'">Contact</button>
+  </div>
+
+  <h1> Contact The Treasurer</h1>
+
+  <form action="https://formspree.io/f/mpwragkp" method="POST" enctype="multipart/form-data">
+    <label>
+      <p>Email</p>
+      <input placeholder="example@email.com" class="email" type="email" name="email">
+    </label>
+    <label>
+      <p>Your Message</p>
+      <textarea maxlength="2690" placeholder="Type your message here" class="message" name="message"></textarea>
+    </label>
+    <button class="send" type="submit">Send</button>
+  </form>
+
+
+</body>
+</html>
